@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+	AJ Hellander
+	index.html
+	2023
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>AJ's Portfolio</title>
+	</head>
+	<body>
+		<header>
+			<img src="Images/AJ.JPG" alt="Photo of AJ" height=375px width=500px>
+			<h2>AJ Hellander</h2>
+			<h4>Aspiring IT Professional, Who Ironically Loves Being Outdoors</h4>
+			<nav>
+				<a href="/pages/index.html">Home</a>
+				<a href="/blog.html">Personal Blog</a>
+				<a href="/hobbies.html">Hobbies</a>
+				<a href="/career.html">Career</a>
+				<a href="/projects.html">Personal and Educational Projects</a>
+			</nav>
+		</header>
+		<section>
+			<aside>
+				<h3>Latest Projects</h3>
+				<ul>
+					<li><a href="/pages/projects/proj1.html">Project 1</a></li>
+					<li><a href="/pages/projects/proj2.html">Project 2</a></li>
+					<li><a href="/pages/projcets/proj3.html">Project 3</a></li>
+				</ul>
+
+			</aside>
+			
+			<main>
+				<!-- Page content goes here -->
+				<h1>Hey Im AJ!</h1>
+				<p>I love snowboarding, dog walks, family, and sports!</p>
+
+				<p>I'm currently enrolled in a dual enrollment program with ACC and CSUP</p>
+
+				<p>I've lived in Colorado my entire life.</p>
+
+				<p>Growing up I played pretty much every sport but in high school only played Golf and Lacrosse.</p>
+
+				<p>Thank you for visiting my site!</p>
+			</main>
+		</section>
+	<footer>
+		<p>&copy; AJ Hellander for CIS 311.
+		<p>Created by AJ Hellander CIS 311 Introduction to Web Development CSUP.</p>
+		<p>Email: <a href="mailto:C832034610@colostate.edu">C832034610@colostate.edu</a></p>
+	</footer>
+	</body>
+</html>
