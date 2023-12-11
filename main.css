@@ -1,0 +1,288 @@
+/* AJ Hellander
+ * main.css
+ * 2023
+ */
+
+ /* Import Google Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Reset all CSS properties to their initial values. */
+footer a section h2 ul p nav ul li body main .locationMap .contactMe {
+	all:initial;
+}
+
+/* Content Grid Layout */
+.gridHeader { grid-area: gHeader; }
+.gridContent { grid-area: gContent; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+	'gHeader gHeader gHeader gHeader'
+	'gContent gContent gContent gContent';
+  gap: 10px;
+  padding: 10px;
+}
+
+/* The following is for smaller/mobile screens. */
+@media only screen and (max-width: 800px) {
+	.desktop-only {
+		display: none;
+	}
+	.tablet-only { 
+		display: none;
+	}
+	.mobile-only {
+		display: block;
+	}
+	.mobile-center {
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+	.header-img {
+		max-width: 50%;
+		max-height: 50%;
+		display: block;
+		margin: auto;
+		border-radius: 15px;
+	}
+	.headGridTitle h2 {
+		text-align: center;
+	}
+	.headGridPic {
+		text-align: center;
+	}
+	.headGridPic figcaption {
+		padding-top: 5%;
+	}
+	header {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	main {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+	}
+	nav ul li {
+        display: block; /* Stack items vertically on small screens */
+        width: 100%;
+    }
+	.noBullets {
+		list-style-type: none;
+		padding: 0;
+	}
+	.ulLeft {
+		text-align: left;
+	}
+}
+
+/* The following is for tablets. */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+	.tablet-only { 
+		display: block;
+	}
+	.desktop-only {
+		display: none;
+	}
+	.mobile-only {
+		display: none;
+	}
+	.mobile-center {
+		text-align: inherit; /* Inherit the default for this as this isn't for mobile. */
+	}
+	.headGridTitle h2 {
+		text-align: center;
+	}
+	.headGridPic {
+		text-align: center;
+	}
+	a:hover {
+		color: #252525;
+	}
+	main h1 {
+		text-align: center;
+	}
+	.headGridPic { grid-area: headPic;}
+	.headGridTitle { grid-area: headTitle; }
+	.headGridTagline { grid-area: headGridTagline; }
+	.head-grid-container {
+		display: grid;
+		grid-template-areas:
+		'headPic'
+		'headTitle';
+
+	}
+
+	.head-grid-container div {
+		overflow: hidden;
+	}
+	.headGridPic figure {
+		margin-bottom: 0;
+	}
+	.headGridPic figure figcaption {
+		display: none;
+	}
+
+	.header-img {
+		height: auto;
+		max-width: 35%;
+		border-bottom: 0;
+		border-radius: 25px;
+	}
+	.headGridTitle .tablet-only p {
+		text-align: center;
+		margin-top: 0;
+	}
+
+}
+
+/* The following is for desktops. */
+@media only screen and (min-width: 1025px) {
+	.desktop-only {
+		display: block;
+	}
+	.tablet-only {
+		display: none;
+	}
+	.mobile-only {
+		display: none;
+	}
+	.mobile-center {
+		text-align: inherit; /* Inherit the default for this as this isn't for mobile. */
+	}
+	.grid-image {
+		max-width: auto;
+		max-height: auto;
+	}
+
+	/* Header Grid Layout */
+	.headGridPic { grid-area: headPic;}
+	.headGridTitle { grid-area: headTitle; }
+	.headGridTagline { grid-area: headGridTagline; }
+	.head-grid-container {
+		display: grid;
+		grid-template-areas:
+		'headPic headTitle';
+		grid-template-columns: 40% 60%;
+		grid-template-rows: auto;
+	}
+	/* Styling for the header below */
+	header {
+		width: 99%;
+		height: auto;
+	}
+	.headGridPic figure {
+		max-width:max-content;
+		left: 50%;
+		top: 50%;
+		width: auto;
+		margin-right: 0;
+	}
+	.headGridPic figure .header-img {
+		height: auto;
+		left: 50%;
+		top: 50%;
+		max-width: 35%;
+		border-radius: 25px;
+	}
+	.headGridPic figcaption {
+		display: none;
+	}
+	.headGridTitle h2 {
+		font-size: 3.2vw;
+		text-shadow: 2px 2px #757575;
+	}
+	/*Styling for main below */
+	main {
+		margin: 1%;
+		width: 80%;
+	}
+	/* Image styling */
+	img {
+		max-width: 100%;
+		max-height: auto;
+		display: block;
+	}
+	/* Projects links will be black and red when hovered on. */
+	aside {
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		width: auto;
+	}
+	aside a {
+		color: black;
+	}
+	aside a:hover {
+		color: red;
+	}
+}
+
+/* "Global" styling below. Not specific to mobile/tablet/desktop. */
+
+/* Styling for the footer below */
+footer {
+	width: 99%;
+	height: auto;
+	background-color: #252525;
+    color: white;
+}
+footer a {
+	color: whitesmoke;
+}
+footer a:hover {
+	color: red;
+}
+section {
+	width: 99%;
+	display: -webkit-flex;
+	display: flex;
+}
+h2 ul p {
+	display: block;
+}
+nav {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background-color;
+}
+nav ul li a:hover {
+    background-color: #ddd; /* Light background on hover */
+    color: black; /* Text color change on hover */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+/* Remove underline from anchors/links */
+a {
+    text-decoration: none;
+}
+.contactMe {
+	margin-top: 0;
+}
+.mobile-center .locationMap {
+	display: block;
+	text-align: center;
+	margin: auto;
+}
