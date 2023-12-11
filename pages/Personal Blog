@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+	AJ Hellander
+	hobbies.html
+	2023
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Hobbies</title>
+		<link rel="stylesheet" href="../css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	</head>
+	<body>
+		<header class="mobile-center">
+			<h2>AJ Hellander</h2>
+			<h4>Aspiring IT Professional, Who Ironically Loves Being Outdoors</h4>
+			<div id="contactMe">
+				<h5>To contact me, please <a href="../pages/contact.html">click here</a> for my contact information.</h5>
+			</div>
+			<nav>
+                                <ul>
+                                        <li><a href="../index.html">Home</a></li>
+                                        <li><a href="../pages/hobbies.html">Hobbies</a><li>
+                                        <li><a href="../pages/blog.html">Personal Blog</a></li>
+                                        <li><a href="../pages/career.html">Career</a></li>
+                                        <li><a href="../pages/projects.html">Personal and Educational Projects</a></li>
+                                </ul>
+			</nav>
+		</header>
+		<section clas="mobile-center">
+			<aside class="mobile-hide">
+				<h3>Latest Projects</h3>
+				<ul>
+					<li><a href="../pages/projects/proj1.html">Project 1</a></li>
+					<li><a href="../pages/projects/proj2.html">Project 2</a></li>
+					<li><a href="../pages/projcets/proj3.html">Project 3</a></li>
+				</ul>
+
+			</aside>
+			
+			<main class="mobile-center">
+				<div id="blog">
+					<!-- Page content goes here -->
+					<h1>Personal Blog</h1>
+					<strong>Table of Contents</strong>
+					<div id="blogTableOfContents">
+						<ul class="noBullets">
+							<li><a href="#blog1">Blog 1</a></li>
+							<li><a href="#blog2">Blog 2</a></li>
+							<li><a href="#blog3">Blog 3</a></li>
+							<li><a href="#blog4">Blog 4</a></li>
+						</ul>
+					</div>
+					<h2>Blog 1</h2>
+					<section id="blog1">
+						<p>Blogging content would be here.</p>
+					</section>
+					<h2>Blog 2</h2>
+					<section>
+						<p class="blog2">Blogging content would be here.</p>
+					</section>
+					<h2>Blog 3</h2>
+					<section id="blog3">
+						<p>Blogging content would be here.</p>
+					</section>
+					<h2>Blog 4</h2>
+					<section id="blog4">
+						<p>Blogging content would be here.</p>
+					</section>
+				</div>
+			</main>
+		</section>
+	<footer class="mobile-center">
+		<p>&copy; AJ Hellander for CIS 311.
+		<p>Created by AJ Hellander CIS 311 Introduction to Web Development CSUP.</p>
+		<p>Email: <a href="mailto:C832034610@colostate.edu">C832034610@colostate.edu</a></p>
+	</footer>
+	</body>
+</html>
