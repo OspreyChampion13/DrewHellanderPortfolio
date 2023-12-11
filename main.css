@@ -1,0 +1,129 @@
+/* AJ Hellander
+ *2023
+ *main.css
+ */
+
+ /* Import Google Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Styling for the header below
+header {
+	width: 99%;
+	height: auto;
+} /*
+/* Styling for the footer below */
+footer {
+	width: 99%;
+	height: auto;
+}
+section {
+	width: 99%;
+	display: -webkit-flex;
+	display: flex;
+}
+/*aside {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	width: auto;
+} */
+/*Styling for main below */
+/*
+main {
+	margin: 1%;
+	width: 80%;
+}*/
+/*img {
+	max-width: 100%;
+	max-height: auto;
+	display: block;
+}*/
+/* Work on this to get my image to float in the left and NOT go over the nav bar. */
+/*.header-img {
+	float: left;
+	margin-right: 5%;
+	width: auto;
+	height: auto;
+	max-width: 10%;
+	border-radius: 25px;
+}*/
+h2 ul p {
+	display: block;
+}
+
+nav {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background-color;
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Light background on hover */
+    color: black; /* Text color change on hover */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+/* Remove underline from anchors/links */
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+	.mobile-hide {
+		display: none;
+	}
+	.mobile-center {
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+	.header-img {
+		max-width: 50%;
+		max-height: 50%;
+		display: block;
+		margin: auto;
+		border-radius: 15px;
+	}
+	header {
+		width: 100%;
+		height: auto;
+	}
+	main {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+	}
+	nav ul li {
+        display: block; /* Stack items vertically on small screens */
+        width: 100%;
+    }
+	.noBullets {
+		list-style-type: none;
+		padding: 0;
+	}
+	.ulLeft {
+		text-align: left;
+	}
+}
