@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+	AJ Hellander
+	hobbies.html
+	2023
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Hobbies</title>
+		<link rel="stylesheet" href="../css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	</head>
+	<body>
+		<header class="mobile-center">
+			<h2>AJ Hellander</h2>
+			<h4>Aspiring IT Professional, Who Ironically Loves Being Outdoors</h4>
+			<div id="contactMe">
+				<h5>To contact me, please <a href="../pages/contact.html">click here</a> for my contact information.</h5>
+			</div>
+			<nav>
+                                <ul>
+                                        <li><a href="../index.html">Home</a></li>
+                                        <li><a href="../pages/hobbies.html">Hobbies</a><li>
+                                        <li><a href="../pages/blog.html">Personal Blog</a></li>
+                                        <li><a href="../pages/career.html">Career</a></li>
+                                        <li><a href="../pages/projects.html">Personal and Educational Projects</a></li>
+                                </ul>
+			</nav>
+		</header>
+		<section clas="mobile-center">
+			<aside class="mobile-hide">
+				<h3>Latest Projects</h3>
+				<ul>
+					<li><a href="../pages/projects/proj1.html">Project 1</a></li>
+					<li><a href="../pages/projects/proj2.html">Project 2</a></li>
+					<li><a href="../pages/projcets/proj3.html">Project 3</a></li>
+				</ul>
+
+			</aside>
+			
+			<main class="mobile-center">
+				<div id="hobbies">
+					<!-- Page content goes here -->
+					<h1>Hobbies</h1>
+					<strong>Table of Contents</strong>
+					<div id="hobbiesTableOfContents">
+						<ul class="noBullets">
+							<li><a href="#sports">Sports</a></li>
+							<li><a href="#it">IT Cybersecurity</a></li>
+							<li><a href="#outdoors">Outdoors</a></li>
+							<li><a href="#family">Family (Dogs)</a></li>
+						</ul>
+					</div>
+					<h2>Sports</h2>
+					<section id="sports">
+						<p>I have always been addicted to sports in all forms. Playing or watching I cant get enough sports. I played "all four major sports" (in the US) when I was little. I believe working together towards a common goal along side your friends cemented my love for sports. While I no longer play sports competitively, I still religiously watch most sports and almost all major events.</p>
+					</section>
+					<h2>IT Cybersecurity</h2>
+					<section>
+						<p class="it">I've always had a love for computers and tech. I found myself from a young age trying to solve the "puzzles" of configurations and customizations fascinating. That passion has lead me here here, a senior at Colorado State University at Pueblo; allowing me to hold the following credentials:</p>
+					</section>
+					<section>
+						<ul class="ulLeft">
+							<li>Associates of Applied Science in Cybersecurity, issued by Arapahoe Community College in Littleton, CO.</li>
+							<li>Certificate of Computer Information Systems, issued by Arapahoe Community College in Littleton, CO.</li>
+						</ul>
+					</section>
+					<section>
+						<p>While learning is a passion of mine, these last years of school have been a little tough as life continues to throw everting possible at everyone. </p>
+					</section>
+					<h2>Outdoors</h2>
+					<section id="outdoors">
+						<p>I cannot get enough of the mountains we have here in Colorado. If its hiking, skiing, or just going for a drive I absolutely love it. I recently got into mountain biking (over the pandemic) and that has opened my world outside even greater. Nature and ecosystems have always have always called to me.</p>
+					</section>
+					<h2>Family (Dogs)</h2>
+					<section id="family">
+						<p>I consider myself a big family man. While I have a blended family; we have always been close (and extremely supportive). My parents all together have 5 kids, and surprisingly we all get along pretty well! My mom ended up moving to Texas in 2019, but fortunately moved back to Colorado in November of 2023 which was awesome for me and the other family she has here.</p>
+					</section>
+				</div>
+			</main>
+		</section>
+	<footer class="mobile-center">
+		<p>&copy; AJ Hellander for CIS 311.
+		<p>Created by AJ Hellander CIS 311 Introduction to Web Development CSUP.</p>
+		<p>Email: <a href="mailto:C832034610@colostate.edu">C832034610@colostate.edu</a></p>
+	</footer>
+	</body>
+</html>
